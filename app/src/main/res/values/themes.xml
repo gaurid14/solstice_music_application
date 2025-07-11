@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Define the base theme -->
+    <style name="Base.Theme.Solstice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Disable dynamic color (Material You) -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Material3 specific overrides -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorSurfaceVariant">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnBackground">@color/white</item>
+    </style>
+
+
+    <!-- Optional: Theme without action bar -->
+    <style name="Theme.Solstice.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Main app theme inherits the base -->
+    <style name="Theme.Solstice" parent="Base.Theme.Solstice" />
+</resources>
