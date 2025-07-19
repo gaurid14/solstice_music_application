@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/src/main/res/drawable/solstice-logo.png" alt="Solstice Logo" width="150"/>
+  <img src="app/src/main/res/drawable/solstice_logo.png" alt="Solstice Logo" width="150"/>
 </p>
 
 <h1 align="center">Solstice</h1>
@@ -21,10 +21,10 @@
 
 ## 🛠 Tech Stack
 
-- **Java*  
+- **Java**  
 - **SQLite**  
 - **Android**
-- Python
-- Flask
+- **Python**
+- **Flask**
 
 
