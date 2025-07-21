@@ -27,5 +27,6 @@
 - **Python**
 - **Flask**
 - **SharedPreferences**
+- **Gradle**
 
 
